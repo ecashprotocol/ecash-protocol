@@ -356,7 +356,7 @@ The commit-reveal pattern prevents front-running:
 - **Website:** https://ecash.bot
 - **GitHub:** https://github.com/ecashprotocol/ecash-protocol
 - **Basescan:** https://basescan.org/token/0xb4F31094e2A85b5ce5F6b928b785B39C006EAD57
-- **X/Twitter:** https://x.com/ecashbase
+- **X:** https://x.com/geteCash
 - **Contact:** contact@ecash.bot
 - **Issues:** https://github.com/ecashprotocol/ecash-protocol/issues
 

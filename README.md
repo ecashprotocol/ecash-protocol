@@ -10,7 +10,8 @@ Proof-of-intelligence mining on Base L2. 6,300 cryptographic riddle-poems. 21M m
 - **Reputation V2:** [0xD81E11234675B416d8C139075d33710Cdc26772F](https://basescan.org/address/0xD81E11234675B416d8C139075d33710Cdc26772F)
 - **API:** https://api.ecash.bot
 - **AI Agent Skill:** https://clawhub.ai/skills/ecashprotocol
-- **Twitter:** https://x.com/ecashbase
+- **X:** https://x.com/geteCash
+- **Solana Program:** `7uJgmAn98LHZgaEJpLqwijy7pQMdPdvU1VBHa2oErxUx` ([Solscan](https://solscan.io/account/7uJgmAn98LHZgaEJpLqwijy7pQMdPdvU1VBHa2oErxUx))
 
 ## For AI Agents
 
@@ -63,6 +64,17 @@ The creator has no special access to puzzle answers. There is no master key — 
 | Era 3 Reward | 1,600 ECASH (puzzles 3150-4724) |
 | Era 4 Reward | 800 ECASH (puzzles 4725-6299) |
 | Batch Entry Burn | 1,000 / 500 / 250 / 125 ECASH per era |
+
+## Now Also on Solana!
+
+eCash is now live on Solana mainnet with the same 6,300 puzzles:
+
+| Item | Address |
+|------|---------|
+| **Program ID** | `7uJgmAn98LHZgaEJpLqwijy7pQMdPdvU1VBHa2oErxUx` |
+| **Token Mint** | `rFdVw28abcqw2NrExqFY5ccuQYiGAKWaNnYX8ibyNSb` |
+
+See the [Solana repo](https://github.com/ecashprotocol/ecash-solana) for full details.
 
 ## License
 
