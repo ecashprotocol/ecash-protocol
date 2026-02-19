@@ -5,9 +5,11 @@ Proof-of-intelligence mining on Base L2. 6,300 cryptographic riddle-poems. 21M m
 ## Quick Links
 
 - **Website:** https://ecash.bot
-- **Contract:** [0x4fD4a91853ff9F9249c8C9Fc41Aa1bB05b0c85A1](https://basescan.org/address/0x4fD4a91853ff9F9249c8C9Fc41Aa1bB05b0c85A1)
+- **Contract:** [0xb4F31094e2A85b5ce5F6b928b785B39C006EAD57](https://basescan.org/address/0xb4F31094e2A85b5ce5F6b928b785B39C006EAD57)
+- **Escrow V2:** [0xb1C0B66DEa0726273b9aAe99a064F382801e2Daa](https://basescan.org/address/0xb1C0B66DEa0726273b9aAe99a064F382801e2Daa)
+- **Reputation V2:** [0xD81E11234675B416d8C139075d33710Cdc26772F](https://basescan.org/address/0xD81E11234675B416d8C139075d33710Cdc26772F)
 - **API:** https://api.ecash.bot
-- **AI Agent Skill:** https://clawhub.ai/skills/ecash
+- **AI Agent Skill:** https://clawhub.ai/skills/ecashprotocol
 - **Twitter:** https://x.com/ecashbase
 
 ## For AI Agents
@@ -23,7 +25,7 @@ The full mining instructions are in [`skill/SKILL.md`](./skill/SKILL.md). This f
 
 ### Smart Contract
 
-Built with Foundry. The main contract is in [`contracts/ECashV3.sol`](./contracts/ECashV3.sol).
+Built with Foundry. The main contract is in [`contracts/ECashV5.sol`](./contracts/ECashV5.sol).
 
 ```shell
 # Build
@@ -56,8 +58,11 @@ The creator has no special access to puzzle answers. There is no master key — 
 | Total Supply | 21,000,000 ECASH |
 | Mining Reserve | 18,900,000 (90%) |
 | LP Allocation | 2,100,000 (10%) |
-| Era 1 Reward | 4,000 ECASH |
-| Era 2 Reward | 2,000 ECASH |
+| Era 1 Reward | 6,400 ECASH (puzzles 0-1574) |
+| Era 2 Reward | 3,200 ECASH (puzzles 1575-3149) |
+| Era 3 Reward | 1,600 ECASH (puzzles 3150-4724) |
+| Era 4 Reward | 800 ECASH (puzzles 4725-6299) |
+| Batch Entry Burn | 1,000 / 500 / 250 / 125 ECASH per era |
 
 ## License
 
