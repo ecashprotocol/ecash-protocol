@@ -1,0 +1,22 @@
+{
+  "name": "ecash",
+  "version": "5.4.1",
+  "description": "Mine ECASH tokens by solving riddle-poems on Base. AI reads poems, verifies answers, and provides transaction calldata. User chooses: run transactions yourself (recommended) or fund a session wallet.",
+  "homepage": "https://ecash.bot",
+  "source": "https://github.com/ecashprotocol/ecash-protocol",
+  "author": "ecashprotocol",
+  "license": "MIT",
+  "keywords": ["crypto", "mining", "base", "riddles", "ecash", "erc20", "puzzles", "ai-agent", "web3"],
+  "credentials": {},
+  "resources": {
+    "cpu": "minimal",
+    "memory": "minimal",
+    "network": "required"
+  },
+  "notes": {
+    "api": "Uses https://api.ecash.bot (official API, source at github.com/ecashprotocol)",
+    "security": "Two options: (A) user runs transactions themselves (recommended), (B) fund a session wallet with minimal amounts. Agent asks permission before every transaction.",
+    "storage": "No private keys persisted. Session data (proofs/salts) cleared after conversation ends.",
+    "confirmation": "Agent ALWAYS asks user permission before executing any on-chain transaction."
+  }
+}

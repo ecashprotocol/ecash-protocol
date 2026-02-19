@@ -1,0 +1,13 @@
+{
+  "name": "ecash-sdk",
+  "version": "1.0.0",
+  "description": "SDK for eCash Protocol v3",
+  "main": "ecash-sdk.js",
+  "scripts": {
+    "test": "node ecash-sdk.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "scrypt-js": "^3.0.1"
+  }
+}

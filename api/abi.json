@@ -1,0 +1,103 @@
+[
+  {
+    "type": "event",
+    "name": "PuzzleSolved",
+    "inputs": [
+      { "name": "solver", "type": "address", "indexed": true },
+      { "name": "puzzleId", "type": "uint256", "indexed": true },
+      { "name": "reward", "type": "uint256", "indexed": false }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "Registered",
+    "inputs": [
+      { "name": "user", "type": "address", "indexed": true },
+      { "name": "referrer", "type": "address", "indexed": true }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "totalSolved",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "miningReserveBalance",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "puzzleSolved",
+    "inputs": [{ "name": "", "type": "uint256" }],
+    "outputs": [{ "name": "", "type": "bool" }],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getUserState",
+    "inputs": [{ "name": "addr", "type": "address" }],
+    "outputs": [
+      { "name": "registered", "type": "bool" },
+      { "name": "gas", "type": "uint256" },
+      { "name": "hasPick", "type": "bool" },
+      { "name": "activePick", "type": "uint256" },
+      { "name": "pickTime", "type": "uint256" },
+      { "name": "streak", "type": "uint256" },
+      { "name": "lastSolveTime", "type": "uint256" },
+      { "name": "totalSolves", "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "register",
+    "inputs": [{ "name": "ref", "type": "address" }],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "pick",
+    "inputs": [{ "name": "puzzleId", "type": "uint256" }],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "commitSolve",
+    "inputs": [{ "name": "hash", "type": "bytes32" }],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "revealSolve",
+    "inputs": [
+      { "name": "answer", "type": "string" },
+      { "name": "salt", "type": "bytes32" },
+      { "name": "secret", "type": "bytes32" },
+      { "name": "proof", "type": "bytes32[]" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "claimDailyGas",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "ERA_1_END",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "stateMutability": "view"
+  }
+]

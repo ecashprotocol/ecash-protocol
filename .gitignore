@@ -1,0 +1,46 @@
+
+__pycache__/
+.DS_Store
+.env
+.env.*.local
+.env.local
+.idea/
+.nyc_output/
+.venv/
+.vscode/
+*-answers.json
+*-salts.json
+*.answers.json
+*.log
+*.pyc
+*.salts.json
+*.swo
+*.swp
+# API data files (contain puzzle data but no answers)
+# Build artifacts
+# Dependencies
+# Environment
+# IDE
+# Logs
+# Sensitive data - NEVER commit these
+# Test coverage
+all-riddles-v3.json
+api/data/
+build/
+cache/
+coverage/
+dist/
+merkle-proofs.json
+node_modules/
+npm-debug.log*
+out/
+puzzle-salts.json
+venv/
+wallet.json
+
+# Scratch/test files
+*.scratch.js
+claim*.js
+solve*.js
+try_*.js
+check_*.js

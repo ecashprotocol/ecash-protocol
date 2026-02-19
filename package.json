@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "clawdhub": "^0.3.0",
+    "ethers": "^6.16.0",
+    "scrypt-js": "^3.0.1",
+    "undici": "^7.22.0"
+  },
+  "name": "ecash-protocol",
+  "version": "1.0.0",
+  "description": "Proof-of-intelligence mining on Base L2. 6,300 cryptographic riddle-poems. 21M max supply. Every token earned by intelligence.",
+  "main": "solver.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecashprotocol/ecash-protocol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ecashprotocol/ecash-protocol/issues"
+  },
+  "homepage": "https://github.com/ecashprotocol/ecash-protocol#readme"
+}
